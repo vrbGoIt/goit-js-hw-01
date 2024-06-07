@@ -1,4 +1,3 @@
-
 function getShippingMessage(country, price, deliveryFee) {
     const mess = `Shipping to ${country} will cost ${price + deliveryFee} credits`;
     return mess;

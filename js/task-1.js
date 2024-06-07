@@ -1,4 +1,3 @@
-
 function makeTransaction(quantity, pricePerDroid) {
     const mess = `You ordered ${quantity} droids worth ${quantity*pricePerDroid} credits!`;
     return mess;
